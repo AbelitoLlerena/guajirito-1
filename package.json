@@ -1,0 +1,14 @@
+{
+  "name": "Anular",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "front": "cd project && ng serve",
+    "back": "cd server && npx json-server db.json -m ./node_modules/json-server-auth",
+    "start": "npm run front & npm run back",
+    "build": "cd project && ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "serve:ssr:project": "node dist/project/server/server.mjs"
+  }
+}

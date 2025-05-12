@@ -1,0 +1,62 @@
+{
+  "users": [
+    {
+      "email": "admin@a.com",
+      "password": "$2a$10$mVnmMNsCgDuPFsIVGoXzP.f6slg5XH.1o4hIUa0jsByemH6snUOcC",
+      "name": "admin",
+      "admin": true,
+      "id": 4
+    },
+    {
+      "email": "pollo@a.com",
+      "password": "$2a$10$pu5Aw2HvMw2YdGLK6t23l.2lBoQrZKHb.FXY0A6kZXlG5WxtxXdZy",
+      "name": "pollo",
+      "admin": false,
+      "id": 8
+    },
+    {
+      "email": "1234@a.com",
+      "password": "$2a$10$aZa47EYWtYYmHAdeVHo5OOshk7944JobGzUJ0Tiryr3m9Mv9bM3qq",
+      "name": "1234",
+      "admin": true,
+      "id": 10
+    }
+  ],
+  "tasks": [
+    {
+      "name": "task new",
+      "description": "gvshtfr",
+      "status": "pending",
+      "assign": 4,
+      "id": 7
+    },
+    {
+      "name": "comer la papa",
+      "description": "arroz con mango",
+      "status": "pending",
+      "assign": 8,
+      "id": 17
+    },
+    {
+      "name": "lavar la ropa",
+      "description": "con lavadora",
+      "status": "pending",
+      "assign": 8,
+      "id": 18
+    },
+    {
+      "name": "odoo pg",
+      "description": "12345678",
+      "status": "pending",
+      "assign": 4,
+      "id": 19
+    },
+    {
+      "name": "odoo pg",
+      "description": "12345678",
+      "status": "pending",
+      "assign": 4,
+      "id": 20
+    }
+  ]
+}
